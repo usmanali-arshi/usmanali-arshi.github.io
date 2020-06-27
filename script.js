@@ -35,7 +35,7 @@ window.addEventListener("load", function() {
       let usman = document.getElementById("usman").contentDocument;
 
       let about = usman.getElementById("Head");
-      loc1.addEventListener('click', () => {
+      about.addEventListener('click', () => {
         console.log("head is clicked");
         // location.replace("Movie.html");
       });
