@@ -30,12 +30,19 @@ label.logo a{
 }
 label.logo:hover{
   color:white;
+  background-color: black;
   text-decoration: none;
   text-transform: none;
 }
+.logo2 a{
+  text-decoration: none !important;
+  background-color: black !important;
+  padding: 5px !important;
+}
 
 label.logo2{
-  color:white;
+  color:white !important;
+  background-color: black !important;
   font-size: 35px;
   line-height: 80px;
   padding: 0 30px;
@@ -152,7 +159,13 @@ nav ul li a{
   /*border-radius: 50%;*/
   z-index: 1;
 }
-
+.content-wrapper{
+  padding-bottom: 10%;
+}
+#page-container{
+  position: relative;
+  min-height: 100vh;
+}
 .content {
   z-index : 1;
   position: absolute;
@@ -160,8 +173,9 @@ nav ul li a{
   background-color: white;
   width: 50%;
   margin-left:30%;
-  padding: 5%;
+  padding: 3%;
   margin-right: 25%;
+
 
   
 }
@@ -218,8 +232,8 @@ nav ul li a{
     font-size:20px;
   }
   a:hover, a.active{
-    background: white;
-    color:red;
+    background: black;
+    color:white;
   }
   #check:checked ~ ul{
     left:0;
@@ -282,8 +296,8 @@ nav ul li a{
     font-size:20px;
   }
   a:hover, a.active{
-    background: none;
-    color:red;
+    background: white;
+    color:black;
   }
   #check:checked ~ ul{
     left:0;

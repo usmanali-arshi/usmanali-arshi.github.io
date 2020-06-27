@@ -85,9 +85,9 @@ nav ul li a{
   transition: .5s;
 }
 */
-/*#content-wrapper{
+#content-wrapper{
 	padding-bottom: 50px;
-}*/
+}
 #page-container{
   position: relative;
   min-height: 100vh;
@@ -140,6 +140,24 @@ nav ul li a{
   
    opacity: 1;
 }
+.content {
+  z-index : 1;
+  position: absolute;
+  margin: auto;
+  background-color: white;
+  width: 50%;
+  margin-left:30%;
+  padding: 5%;
+  margin-right: 25%;
+
+
+  
+}
+.content p{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 
 .checkbtn{
