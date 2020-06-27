@@ -84,9 +84,9 @@ nav ul li a{
   transition: .5s;
 }
 */
-/*#content-wrapper{
-	padding-bottom: 50px;
-}*/
+#content-wrapper{
+	pointer-events: none;
+}
 
 
 
