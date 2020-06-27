@@ -12,6 +12,7 @@ body{
 
 nav{
   /*margin-top: 5px;*/
+  font-weight: 900;
   z-index: 2;
   top:0;
   width:100%;
@@ -129,6 +130,7 @@ nav ul li a{
   }
 
 .onesnzeros {
+  font-weight: 900;
    position: fixed;
    top:0;
    left:0;

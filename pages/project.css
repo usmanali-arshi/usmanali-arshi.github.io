@@ -14,6 +14,7 @@ nav{
   /*margin-top: 5px;*/
   z-index: 1;
   font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
   top:0;
   width:100%;
   position: sticky;
@@ -122,12 +123,13 @@ nav ul li a{
 }*/
 .onesnzeros {
   font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
    position: fixed;
    top:0;
    left:0;
    max-width: 100vw;
    max-height: 100vh;
-   opacity: 0;
+   opacity: 0.4;
    word-wrap: break-word;
    z-index: -1;
    transition: opacity 0.5s;
@@ -139,7 +141,7 @@ nav ul li a{
 
 .onesnzeros:hover {
   
-   opacity: 1;
+   opacity: 0;
 }
 
 
