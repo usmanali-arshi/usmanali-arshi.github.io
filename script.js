@@ -1,8 +1,6 @@
 // js for personal website
-let element = document.querySelector(".onesnzeros");
 
-element.innerHTML = "01".repeat(5000)
-window.addEventListener("load", function() {
+window.onload=() => {
 
   let element = document.querySelector(".onesnzeros");
 
