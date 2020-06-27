@@ -206,8 +206,8 @@ nav ul li a{
     font-size:20px;
   }
   a:hover, a.active{
-    background: white;
-    color:red;
+    background: black;
+    color:white;
   }
   #check:checked ~ ul{
     left:0;
@@ -270,8 +270,8 @@ nav ul li a{
     font-size:20px;
   }
   a:hover, a.active{
-    background: none;
-    color:red;
+    background: black;
+    color:white;
   }
   #check:checked ~ ul{
     left:0;
