@@ -7,13 +7,12 @@
   box-sizing: border-box;
 }
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 nav{
   /*margin-top: 5px;*/
   z-index: 1;
-  font-family: 'Titillium Web', sans-serif;
   top:0;
   width:100%;
   position: sticky;
@@ -88,18 +87,13 @@ nav ul li a{
 /*#content-wrapper{
 	padding-bottom: 50px;
 }*/
-#page-container{
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 3rem;
 
-}
 
 
 .footer{
   width: 100%;
   height: 50px;
-  margin-top: 3rem;
+  margin-top: 50px;
   position: absolute;
   background-color: rgba(0,0,0,0.9);
   text-align: center;
@@ -118,8 +112,14 @@ nav ul li a{
 /*svg{
   pointer-events: none;
 }*/
+.contacts a{
+    color: black !important ;
+    text-decoration: none;
+    /*padding: 2%;*/
+    margin-left: 2%;
+  }
+
 .onesnzeros {
-  font-family: 'Titillium Web', sans-serif;
    position: fixed;
    top:0;
    left:0;
@@ -127,7 +127,7 @@ nav ul li a{
    max-height: 100vh;
    opacity: 0;
    word-wrap: break-word;
-   /*z-index: -1;*/
+   z-index: -1;
    transition: opacity 0.5s;
    -webkit-user-select: none;         
    -moz-user-select: none; 
@@ -139,6 +139,37 @@ nav ul li a{
   
    opacity: 1;
 }
+.fa {
+  /*padding: 20px;*/
+  font-size: 30px;
+  width: 30px;
+  padding: 2%;
+  text-align: center;
+  text-decoration: none;
+  /*margin-left: 2%;*/
+  border-radius: 50%;
+  /*border: solid black;*/
+  /*border-radius: 50%;*/
+  z-index: 1;
+}
+
+.content {
+  z-index : 1;
+  position: absolute;
+  margin: auto;
+  background-color: white;
+  width: 50%;
+  margin-left:30%;
+  padding: 5%;
+  margin-right: 25%;
+
+  
+}
+.content p{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 
 .checkbtn{
@@ -187,10 +218,8 @@ nav ul li a{
     font-size:20px;
   }
   a:hover, a.active{
-    /*background: black;*/
-    color:white;
-    padding: .2rem;
-    text-decoration: none;
+    background: white;
+    color:red;
   }
   #check:checked ~ ul{
     left:0;
