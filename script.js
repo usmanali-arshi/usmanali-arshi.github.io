@@ -23,14 +23,14 @@ window.onload=() => {
         console.log("head is clicked");
         location.replace("pages/about.html");
       });
-      let Ldance = usman.getElementById("LLeg");
-      about.addEventListener('click', () => {
+      let lDance = usman.getElementById("LLeg");
+      lDance.addEventListener('click', () => {
         console.log("head is clicked");
         // location.replace("pages/about.html");
         alert("Oh Snap! Dance world is under construction. Come back later! ")
       });
-      let Rdance = usman.getElementById("RLeg");
-      about.addEventListener('click', () => {
+      let rDance = usman.getElementById("RLeg");
+      rDance.addEventListener('click', () => {
         console.log("head is clicked");
         // location.replace("pages/about.html");
         alert("Oh Snap! Dance world is under construction. Come back later! ")
