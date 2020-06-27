@@ -12,6 +12,7 @@ body{
 
 nav{
   /*margin-top: 5px;*/
+  z-index: 1;
   top:0;
   width:100%;
   position: sticky;
@@ -40,15 +41,16 @@ label.logo2{
   padding: 0 30px;
   display: block;
   display: sticky;
+  z-index: 1;
 }
 div.banner  {
-  position: absolute;
+  position: relative;
   /*top: 0;*/
   /*left: 0;*/
   object-fit: cover;
   width: 100%;
-  height: 100vh;
-  /*pointer-events: none;*/
+  height: 100%;
+  pointer-events: none;
 }
 div.pic {
   position: relative;
@@ -82,11 +84,16 @@ nav ul li a{
   transition: .5s;
 }
 */
+/*#content-wrapper{
+	padding-bottom: 50px;
+}*/
 
 
 
 .footer{
   width: 100%;
+  height: 50px;
+  margin-top: 50px;
   position: absolute;
   background-color: rgba(0,0,0,0.9);
   text-align: center;
@@ -113,7 +120,7 @@ nav ul li a{
    max-height: 100vh;
    opacity: 0;
    word-wrap: break-word;
-   z-index: -1;
+   /*z-index: -1;*/
    transition: opacity 0.5s;
    -webkit-user-select: none;         
    -moz-user-select: none; 
@@ -133,6 +140,7 @@ nav ul li a{
   margin: auto;
    text-align: center; 
   display: flex;
+  padding-bottom: 3rem;
   justify-content: center;
   align content: center;
   cursor: pointer;
