@@ -35,13 +35,13 @@ window.onload=() => {
       let projects= usman.getElementById("Torso");
       projects.addEventListener('click', () => {
         console.log("torso is clicked");
-        // location.replace("Movie.html");
+        location.replace("pages/projects.html");
       });
 
       let about = usman.getElementById("Head");
       about.addEventListener('click', () => {
         console.log("head is clicked");
-        // location.replace("Movie.html");
+        location.replace("about.html");
       });
     }
   }
