@@ -20,6 +20,6 @@ window.onload=() => {
       let about = usman.getElementById("Head");
       about.addEventListener('click', () => {
         console.log("head is clicked");
-        location.replace("about.html");
+        location.replace("pages/about.html");
       });
 };
