@@ -33,6 +33,11 @@ window.addEventListener("load", function() {
       let usmanCS = document.getElementById("usman");
 
       let usman = document.getElementById("usman").contentDocument;
+      let projects= usman.getElementById("Torso");
+      projects.addEventListener('click', () => {
+        console.log("torso is clicked");
+        // location.replace("Movie.html");
+      });
 
       let about = usman.getElementById("Head");
       about.addEventListener('click', () => {
