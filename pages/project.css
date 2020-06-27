@@ -188,7 +188,7 @@ nav ul li a{
     font-size:20px;
   }
   a:hover, a.active{
-    /*background: black;*/
+    background: black;
     color:white;
     padding: .2rem;
     text-decoration: none;
@@ -254,8 +254,8 @@ nav ul li a{
     font-size:20px;
   }
   a:hover, a.active{
-    background: none;
-    color:red;
+    background: black;
+    color:white;
   }
   #check:checked ~ ul{
     left:0;
