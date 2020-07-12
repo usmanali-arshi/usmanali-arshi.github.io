@@ -1,4 +1,11 @@
 // js for personal website
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+     // $(".footer").fadeIn("slow");
+     // $(".banner").fadeIn("slow");
+  
+
+});
 
 window.onload=() => {
 	console.log("its loading");
